@@ -1,0 +1,7 @@
+- name: installing mysql
+  command: yum install mysql -y
+  tags: 'a'
+ 
+- name: installing java web
+  command: yum install java -y  
+  tags: 'b'

@@ -1,0 +1,7 @@
+- name: install pip 
+  command: yum install pip -y
+
+- name: install pandas python
+  pip: 
+    name: Pandas
+        

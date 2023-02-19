@@ -1,0 +1,11 @@
+- name: inserting data in a file
+  copy:
+    dest: "file.txt"
+    content: |
+     hii everyone iam surya and i learning
+     in devops and coaching is under processing
+     my trainer is teaching skills is very good
+     and good explation the skill is reaching is everyone and
+     understanding
+
+

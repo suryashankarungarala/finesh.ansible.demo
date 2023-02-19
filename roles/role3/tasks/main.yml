@@ -1,0 +1,5 @@
+- name: installing docker 
+  command: yum install docker -y
+  
+- name: start docker
+  command: systemctl start docker 

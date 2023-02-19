@@ -1,0 +1,10 @@
+ - name: install apache 
+   command: yum install httpd -y
+
+ - name: starting apache 
+   command: systemctl start httpd 
+
+ - name: taking source code 
+   git: 
+     repo: 'https://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@github.com/suryashankarungarala/html.git'
+     dest: "/var/www/html/"
